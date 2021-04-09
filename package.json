@@ -1,5 +1,5 @@
 {
-  "name": "datadog-metrics",
+  "name": "@healthline/datadog-metrics",
   "version": "2.0.0",
   "description": "Buffered metrics reporting via the DataDog HTTP API",
   "main": "index.js",
