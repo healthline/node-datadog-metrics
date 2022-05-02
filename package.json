@@ -1,25 +1,8 @@
 {
   "name": "@healthline/datadog-metrics",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Buffered metrics reporting via the DataDog HTTP API",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:dbader/node-datadog-metrics.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dbader/node-datadog-metrics/issues"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec && ./node_modules/.bin/jshint --reporter node_modules/jshint-stylish-ex/stylish.js *.js ./lib/*.js ./test/*.js && ./node_modules/.bin/jscs --config .jscsrc *.js ./lib/*.js ./test/*.js"
-  },
-  "keywords": [
-    "datadog",
-    "metrics",
-    "stats"
-  ],
-  "author": "Daniel Bader <mail@dbader.org> (http://dbader.org/)",
-  "license": "MIT",
   "devDependencies": {
     "chai": "3.5.0",
     "chai-string": "1.1.6",
